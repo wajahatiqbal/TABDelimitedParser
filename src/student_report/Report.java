@@ -10,7 +10,7 @@ public class Report {
 
 	String ResultedReport = "Student \"<student-name>\" was taught the course \"<course-name>\" by instructors \"<instructor-name>\". He \"<result>\" the exam by getting a score of \"<obtained-marks>\" out of \"<total-marks>\"";
 
-	// Hashmaps
+	// Setting up the Hashmaps
 	HashMap<Integer, HashMap<String, String>> currentMap = new HashMap<>(), allStudents = new HashMap<>(),
 			allExamResults = new HashMap<>(), allTeachers = new HashMap<>(), allCourses = new HashMap<>();
 	HashMap<String, String> entity = new HashMap<>();
@@ -31,6 +31,7 @@ public class Report {
 
 	int pervSpaceCount = 0;
 
+	// parsing the values
 	private void doParse(String line, int spaceCount) {
 		if (line.equals("") || line.charAt(0) == '%') {
 			return;
@@ -64,6 +65,7 @@ public class Report {
 
 	}
 	
+	// setting up the reports for all the records.
 	public void doEvaluateAndWrite(BufferedWriter out) throws Exception{
 		for (int i = 1; i < allStudents.size(); i++) {
 			HashMap<String, String> student = allStudents.get(i);
@@ -110,6 +112,7 @@ public class Report {
 		return instructors;
 	}
 
+	
 	private String getCourseTotal(String id) {
 		for (int i = 1; i < allCourses.size(); i++) {
 			if (allCourses.get(i).get("ID").equals(id)) {
