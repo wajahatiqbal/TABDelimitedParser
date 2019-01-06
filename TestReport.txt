@@ -1,0 +1,10 @@
+Student "Atif Khan" was taught the course "Art and History" by instructors "Atif Aslam" and "Kashif Maqbool". He "passed" the exam by getting a score of "60" out of "75"
+
+Student "Atif Khan" was taught the course "Origins of Law and Order" by instructors "Kashif Maqbool". He "failed" the exam by getting a score of "40" out of "100"
+
+Student "Atif Khan" was taught the course "Financial Accounting" by instructors "Jameel Hussain". He "failed" the exam by getting a score of "40" out of "100"
+
+Student "Hassan Akhtar" was taught the course "Art and History" by instructors "Atif Aslam". He "passed" the exam by getting a score of "50" out of "75"
+
+Student "Hassan Akhtar" was taught the course "Origins of Law and Order" by instructors "Kashif Maqbool" and "Jameel Hussain". He "failed" the exam by getting a score of "50" out of "100"
+
